@@ -1,0 +1,5 @@
+parameters:
+    moviedb.user_agent: Learning/1.0
+
+    env(MOVIEDB_API_KEY): http://localhost:8001
+    tfc_api_client.category_usvc.base_url: '%env(BASE_URL_CATEGORY_USVC)%'
